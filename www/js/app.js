@@ -6,7 +6,53 @@
 angular.module('App', ['ionic'])
 
 .config(function($stateProvider, $urlRouterProvider){
-  
+  $stateProvider
+  .state('news', {
+    url: '/news',
+    templateUrl: 'views/news/news.html'
+  })
+  .state('get-started', {
+    url: '/get-started',
+    templateUrl: 'views/get_started/get_started.html'
+  })
+  .state('ementa', {
+    url: '/ementa',
+    templateUrl: 'views/ementa/ementa.html'
+  })
+  .state('teachers', {
+    url: '/teachers',
+    templateUrl: 'views/teachers/teachers.html'
+  })
+  .state('labs', {
+    url: '/labs',
+    templateUrl: 'views/labs/labs.html'
+  })
+  .state('highlights', {
+    url: '/highlights',
+    templateUrl: 'views/highlights/highlights.html'
+  })
+  .state('yearbook', {
+    url: '/yearbook',
+    templateUrl: 'views/highlights/highlights.html'
+  })
+  .state('phones', {
+    url: '/phones',
+    templateUrl: 'views/phones/phones.html'
+  })
+  .state('mails', {
+    url: 'mails',
+    templateUrl: 'views/mails/mails.html'
+  })
+  .state('about-ifce', {
+    url: '/about-ifce',
+    templateUrl: 'views/about/about_ifce.html'
+  })
+  .state('about-developers', {
+    url: 'about-developers',
+    templateUrl: 'views/about/about_developers.html'
+  });
+
+  $urlRouterProvider.otherwise('/news');
 })
 
 .run(function($ionicPlatform) {
