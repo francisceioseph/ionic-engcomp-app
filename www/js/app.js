@@ -9,7 +9,8 @@ angular.module('App', ['ionic'])
   $stateProvider
   .state('news', {
     url: '/news',
-    templateUrl: 'views/news/news.html'
+    templateUrl: 'views/news/news.html',
+    controller: 'NewsController'
   })
   .state('get-started', {
     url: '/get-started',
