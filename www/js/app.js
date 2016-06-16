@@ -40,11 +40,13 @@ angular.module('App', ['ionic'])
   })
   .state('phones', {
     url: '/phones',
-    templateUrl: 'views/phones/phones.html'
+    templateUrl: 'views/phones/phones.html',
+    controller: 'PhonesController'
   })
   .state('mails', {
     url: 'mails',
-    templateUrl: 'views/mails/mails.html'
+    templateUrl: 'views/mails/mails.html',
+    controller: 'TeacherMailsController'
   })
   .state('about-ifce', {
     url: '/about-ifce',

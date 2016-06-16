@@ -98,6 +98,46 @@ angular.module('App')
   return BriefEmentas;
 })
 
+.factory('TeacherEmails', function(){
+  var TeacherEmails = {
+    emails: [
+      {name:"Aluisio Cabral De Lima",email:"aluisio@ifce.edu.br"},
+      {name:"Anaxagoras Maia Girao",email:"anaxa@ifce.edu.br"},
+      {name:"Andre Luiz Carneiro De Araujo",email:"andreluiz@ifce.edu.br"},
+      {name:"Carlos Hairon Ribeiro Goncalves",email:"hairon@ifce.edu.br"},
+      {name:"Cassandra Ribeiro Joye",email:"cassandra@ifce.edu.br"},
+      {name:"Cesar Olavo De Moura Filho",email:"cesarolavo@ifce.edu.br"},
+      {name:"Cicero Roberto Bitencourt Calou",email:"calou@ifce.edu.br"},
+      {name:"Cidcley Teixeira De Souza",email:"cidcley@ifce.edu.br"},
+      {name:"Elias Teodoro Da Silva Junior",email:"elias@ifce.edu.br"},
+      {name:"Fabiola Fernandes Andrade",email:"fabiola@ifce.edu.br"},
+      {name:"Fernando Macedo Carneiro",email:"fmacedo@ifce.edu.br"},
+      {name:"Fernando Parente Garcia",email:"fernandoparente@ifce.edu.br"},
+      {name:"Francisco Jose Alves De Aquino",email:"fcoalves_aq@ifce.edu.br"},
+      {name:"Glauber Ferreira Cintra",email:"glauberc@ifce.edu.br"},
+      {name:"Itamar De Souza Lima",email:"itamar@ifce.edu.br"},
+      {name:"Joao Batista Bezerra Frota",email:"jb@ifce.edu.br"},
+      {name:"Jose Bento De Freitas",email:"jbento@ifce.edu.br"},
+      {name:"José De Souza Breves Filho",email:"breves@ifce.edu.br"},
+      {name:"Jose Stalio Rodrigues Dos Santos",email:"stalio@ifce.edu.br"},
+      {name:"José Wally Mendonça Menezes",email:"wally@ifce.edu.br"},
+      {name:"Lucineide Penha Torres De Freitas",email:"lutorres@ifce.edu.br"},
+      {name:"Maria Eugenia Canto Cabral",email:"canto@ifce.edu.br"},
+      {name:"Nídia Glória Da Silva Campos",email:"nidia@ifce.edu.br"},
+      {name:"Nivaldo Teixeira Filho",email:"nivaldo@ifce.edu.br"},
+      {name:"Paulo Maia Ferreira",email:"paulomaia@ifce.edu.br"},
+      {name:"Paulo Roberto Furtado Serra",email:"paulofurtado@ifce.edu.br"},
+      {name:"Ricardo Guedes",email:"ricardo@ifce.edu.br"},
+      {name:"Ricardo Duarte Taveira",email:"taveira@ifce.edu.br"},
+      {name:"Roberto Carlos Carneiro Feitosa",email:"robertodg68@ifce.edu.br"},
+      {name:"Roberto Ferreira Sena Filho",email:"robertovideo@gmail.com"},
+      {name:"Ronaldo Fernandes Ramos",email:"ronaldo@ifce.edu.br"}
+    ]
+  };
+
+  return TeacherEmails;
+})
+
 .factory('Teachers', function(){
   var Teachers = {
     data: [

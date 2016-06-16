@@ -1,6 +1,13 @@
 <ion-view title="Telemática">
 	<ion-content>
     <ion-list>
+			<div class="list card">
+				<a href="tel:+55-85-3307-3607" class="item item-icon-left assertive">
+					<i class="icon fa fa-phone"></i>
+					Ligar para o Departamento
+				</a>
+			</div>
+
       <div class="list card">
         <div class="item avatar">
           <h2>Edson da Silva Almeida</h2>
@@ -11,21 +18,10 @@
           <img src="img/edson.png" alt="Imagem do Gerente" />
         </div>
 
-        <div class="row">
-          <div class="col col-50">
-            <a href="mailto:edsondasilva.almeida@gmail.com" class="item item-icon-left positive">
-              <i class="icon fa fa-envelope-o"></i>
-              Enviar Email
-            </a>
-          </div>
+				<button class="item button-full positive" ng-click="openMail('edsondasilva.almeida@gmail.com')">
+					<strong> Enviar email </strong>
+				</button>
 
-          <div class="col col-50">
-            <a href="tel:+55-85-3307-3607" class="item item-icon-left assertive">
-              <i class="icon fa fa-phone"></i>
-              Fazer Ligação
-            </a>
-          </div>
-        </div>
       </div>
 
       <div class="list card">
@@ -38,22 +34,11 @@
           <img src="img/parente.png" alt="Imagem do Coordenador" />
         </div>
 
-        <div class="row">
-          <div class="col col-50">
-            <a href="mailto:fernandoparenteg@gmail.com" class="item item-icon-left positive">
-              <i class="icon fa fa-envelope-o"></i>
-              Enviar Email
-            </a>
-          </div>
+				<button class="item button-full positive" ng-click="openMail('fernandoparenteg@gmail.com')">
+					<strong> Enviar email </strong>
+				</button>
 
-          <div class="col col-50">
-            <a href="tel:+55-85-3307-3607" class="item item-icon-left assertive">
-              <i class="icon fa fa-phone"></i>
-              Fazer Ligação
-            </a>
-          </div>
-        </div>
-
+			</div>
     </ion-list>
   </ion-content>
 </ion-view>
