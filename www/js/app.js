@@ -26,6 +26,10 @@ angular.module('App', ['ionic'])
     templateUrl: 'views/teachers/teachers.html',
     controller: 'TeachersController'
   })
+  .state('links', {
+    url: '/links',
+    templateUrl: 'views/links/links.html',
+  })
   .state('labs', {
     url: '/labs',
     templateUrl: 'views/labs/labs.html'
@@ -57,7 +61,7 @@ angular.module('App', ['ionic'])
     templateUrl: 'views/about/about_developers.html'
   });
 
-  $urlRouterProvider.otherwise('/news');
+  $urlRouterProvider.otherwise('/get-started');
 
 })
 

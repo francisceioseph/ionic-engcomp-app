@@ -143,77 +143,141 @@ angular.module('App')
     data: [
       {
         name: 'Anaxágoras Maia Girão',
-        brief: 'Possui graduação em Engenharia Elétrica pela Universidade Federal do Ceará (1992) e \
-                especialização de Arquitetura de Computadores com ênfase em Sistemas Tolerantes a Falhas (UFC). \
-                Atualmente é professor/pesquisador do IFCE, coordenando o Laboratório de Pesquisa Aplicada e \
-                Desenvolvimento em Automação (LAPADA). ',
         titulacao: 'Especialização em Engenharia Elétrica',
         photoUrl: 'http://goo.gl/1C5j5G',
         cvUrl: ' http://lattes.cnpq.br/1133345547075628',
       },
       {
         name: 'André Luiz Carneiro de Araújo',
-        brief: 'Possui graduação em Engenharia Elétrica pela Universidade Federal do Ceará (1997), \
-                mestrado profissionalizante em computação pela Universidade Estadual do Ceará (2003) e doutorado em \
-                engenharia de teleinformática pela Universidade Federal do Ceará (2014).',
         titulacao: 'Doutorado em Engenharia de Teleinformática',
         photoUrl: 'http://goo.gl/FIMzQh',
         cvUrl: 'http://lattes.cnpq.br/4393261030137127',
       },
       {
         name: 'Antonio Wendell de Oliveira Rodrigues',
-        brief: "Doutor pela Universidade de Lille 1 - França com tema de tese relacionado à Computação de Alto Desempenho \
-                usando GPUs com abordagens MDE. Trabalhou como pesquisador em tempo integral no INRIA (Institut National de Recherche \
-                en Informatique et Automatique) e parcialmente na Universidade de Hertfordshire, UK. Mestre em Computação com dissertacao \
-                na área de ensino de redes de computadores. Possui graduação em Engenharia Elétrica com ênfase em Informática pela \
-                Universidade Federal do Ceará (1998).",
         titulacao: "Doutorado em Ecole Doctorale Sciences Pour l'Ingénieur.",
         cvUrl: 'http://lattes.cnpq.br/5147756865751360',
         photoUrl: 'http://goo.gl/orTfI2',
       },
       {
         name: 'Carlos Hairon Ribeiro Gonçalves',
-        brief: "Possui graduação em Ciência da Computação pela Universidade Federal da Paraíba (1998) e \
-                mestrado em Ciência da Computação pela Universidade Federal do Ceará (2003). É efetivo do Instituto Federal de \
-                Educação, Ciência e Tecnologia do Ceará, exercendo a função de professor do curso de Engenharia de Computação. \
-                Tem experiência na área de Ciência da Computação, com ênfase em sistemas de computação, atuando principalmente nos \
-                seguintes temas: internet, dispositivos móveis, gerenciamento de redes de computadores, sistemas de informação e sistemas \
-                inteligentes.",
         titulacao: 'Mestrado em Ciências da Computação',
         cvUrl: 'http://lattes.cnpq.br/0949861086857458',
         photoUrl: 'http://goo.gl/H8sZi7'
       },
       {
         name: 'Carlos Maurício Jaborandy de Mattos Dourado Júnior',
-        brief: "Mestre em Engenharia de Teleinformática pela Universidade Federal do Ceará (2009) e \
-                graduado em Engenharia Eletrônica pela Universidade de Fortaleza (2004). Atualmente é professor efetivo do Instituto Federal de \
-                Educação, Ciência e Tecnologia do Ceará (IFCE). Tem experiência na área de Ciência da Computação com ênfase em Teleinformática, \
-                atuando principalmente nos seguintes temas: Desenvolvimento de sistemas, redes de computadores, plataformas de ensino a distância e \
-                gestão do conhecimento.",
         titulacao: 'Doutorado em andamento em Informática Aplicada',
         cvUrl: 'http://lattes.cnpq.br/7559969132845272',
         photoUrl: 'http://goo.gl/PJnwhz'
       },
       {
         name: 'César Olavo de Moura Filho',
-        brief: "Assistant professor at the IFCE, just returned from a post-doctoral research, at the Institut National de \
-                Recherche en Informatique et Automatique (INRIA), in France. My main area of research is Model Driven Engineering, \
-                a sub-domain from Software Engineering that implements the well-known principle of separation of \
-                concerns by enforcing that business concerns be modeled independently of any platform concerns.",
-        titulacao: 'Doutorado em Doutorado em Informática.',
+        titulacao: 'Doutorado em Informática.',
         cvUrl: 'http://lattes.cnpq.br/6966901006537721',
         photoUrl: 'http://goo.gl/i1lic2'
       },
       {
         name: 'Cicero Roberto Bitencourt Calou',
-        brief: "Professor do Instituto Federal de Educação Ciência e Tecnologia do Ceará, IFCE, departamento de Telemática. \
-                Professor orientador da disciplina de Projetos Sociais e Informática. Supervisor do programa de estágio e emprego dos \
-                cursos de Telemática, Telecomunicações e Engenharia da Computação. Pesquisador do grupo de pesquisa do IFCE - LESTE, LABORATÓRIO DE \
-                EMPREENDEDORISMO DIGITAL E SERVIÇOS DE TELECOMUNICAÇÕES. Orientador do Projeto e-Jovem Modulo II. Programa de formação em informática desenvolvido \
-                para alunos e egressos da escola pública no convênio entre o governo estadual através da SEDUC e o IFCE, desde 2009.",
-        titulacao: 'Mestrado em Informática Educativa',
+        titulacao: 'Doutorado em andamento em Educação',
         cvUrl: 'http://lattes.cnpq.br/4405597852122404',
         photoUrl: 'http://goo.gl/7SDBaC'
+      },
+      {
+        name: 'Cidcley Teixeira de Souza',
+        titulacao: 'Doutorado em Ciências da Computação',
+        cvUrl: 'http://lattes.cnpq.br/8431323844701530',
+        photoUrl: ''
+      },
+      {
+        name: 'Elias Teodoro da Silva Júnior',
+        titulacao: 'Doutorado em Computação',
+        cvUrl: 'http://lattes.cnpq.br/9405844293925084',
+        photoUrl: 'http://goo.gl/VhR77Z'
+      },
+      {
+        name: 'Ernani Andrade Leite',
+        cvUrl: 'http://lattes.cnpq.br/6944727619038152',
+        titulacao: 'Doutorado em andamento em Informática Aplicada',
+        photoUrl: 'http://goo.gl/Ms6PZJ'
+      },
+      {
+        name: 'Esdras Ferreira Sales Júnior',
+        titulacao: 'Mestrado em Informática',
+        cvUrl: 'http://lattes.cnpq.br/8768626374347089',
+        photoUrl: 'http://goo.gl/7zuD0I'
+      },
+      {
+        name: 'Fernando Parente Garcia',
+        titulacao: 'Doutorado em Ciências da Computação',
+        cvUrl: 'http://lattes.cnpq.br/2634131135774711',
+        photoUrl: 'http://goo.gl/05QV1Y'
+      },
+      {
+        name: 'Francisco Edmar Vasconcelos Pereira',
+        cvUrl: 'http://lattes.cnpq.br/6493538996410599',
+        titulacao: 'Mestrado em Educação',
+        photoUrl: 'http://goo.gl/dW1GaC'
+      },
+      {
+        name: 'Francisco José Alves de Aquino',
+        cvUrl: 'http://lattes.cnpq.br/7753822376652584',
+        titulacao: 'Doutorado em Engenharia Elétrica',
+        photoUrl: 'http://goo.gl/hXpjP7'
+      },
+      {
+        name: 'Glauber Ferreira Cintra',
+        cvUrl: 'http://lattes.cnpq.br/1499896249253454',
+        titulacao: 'Doutorado em Ciência da Computação',
+        photoUrl: 'http://goo.gl/lqGq9w'
+      },
+      {
+        name: 'Itamar de Souza Lima',
+        cvUrl: 'http://lattes.cnpq.br/5379713635869189',
+        titulacao: 'Mestrado em Engenharia Elétrica',
+        photoUrl: ''
+      },
+      {
+        name: 'Joacillo Luz Dantas',
+        cvUrl: 'http://lattes.cnpq.br/8848115960707246',
+        titulacao: 'Doutorado em andamento em Engenharia Elétrica',
+        photoUrl: 'http://goo.gl/634Ouv'
+      },
+      {
+        name: 'Joao Batista Bezerra Frota',
+        cvUrl: 'http://lattes.cnpq.br/5806439919276380',
+        titulacao: 'Mestrado profissional em Mestrado Profissional em Computação Aplicada',
+        photoUrl: 'http://goo.gl/sC1caJ'
+      },
+      {
+        name: 'José Bento de Freitas',
+        cvUrl: 'http://lattes.cnpq.br/2294730519255707',
+        titulacao: 'Mestrado profissional em Computação.',
+        photoUrl: ''
+      },
+      {
+        name: 'Nídia Glória da Silva Campos',
+        cvUrl: 'http://lattes.cnpq.br/7654075576944519',
+        titulacao: 'Doutorado em andamento em Engenharia de Teleinformática',
+        photoUrl: ''
+      },
+      {
+        name: 'Ricardo Bezerra de Menezes Guedes',
+        cvUrl: 'http://lattes.cnpq.br/4186661410301575',
+        titulacao: 'Mestrado em Ciências da Computação',
+        photoUrl: 'http://goo.gl/5tBhRg'
+      },
+      {
+        name: 'Ricardo Duarte Taveira',
+        cvUrl: 'http://lattes.cnpq.br/6322998211288243',
+        titulacao: 'Doutorado em andamento em Informática Aplicada',
+        photoUrl: 'http://goo.gl/vqzlL8'
+      },
+      {
+        name: 'Ronaldo Fernandes Ramos',
+        cvUrl: 'http://lattes.cnpq.br/6350043279210590',
+        titulacao: 'Doutorado em Systèmes Informatiques',
+        photoUrl: 'http://goo.gl/nTMB7S'
       }
     ]
   };

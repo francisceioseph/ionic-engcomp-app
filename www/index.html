@@ -25,7 +25,7 @@
     <script src="views/teachers/teachers.js"></script>
     <script src="views/mails/mails.js"></script>
     <script src="views/phones/phones.js"></script>
-    
+
   </head>
   <body ng-app="App">
     <ion-side-menus>
@@ -50,10 +50,14 @@
 
         <ion-content>
           <ion-list>
-            <ion-item class="item-icon-left" ui-sref= "news" menu-close="">
+            <div class="item item-text-wrap">
+                <img class="full-image" src="img/logo-engcomp.png">
+            </div>
+
+            <!-- <ion-item class="item-icon-left" ui-sref= "news" menu-close="">
               <span class="icon fa fa-newspaper-o" aria-hidden="true"></span>
-              <strong> News </strong>
-            </ion-item>
+              Novidades
+            </ion-item> -->
 
             <div class="item item-divider">
               Curso
@@ -61,37 +65,42 @@
 
             <ion-item class="item-icon-left" ui-sref= "get-started" menu-close="">
               <span class="icon fa fa-font-awesome" aria-hidden="true"></span>
-              <strong> Apresentação </strong>
+              Apresentação
             </ion-item>
 
             <ion-item class="item-icon-left" ui-sref= "ementa" menu-close="">
               <span class="icon fa fa-files-o" aria-hidden="true"></span>
-              <strong> Ementas </strong>
+              Ementas
             </ion-item>
 
             <ion-item class="item-icon-left" ui-sref= "teachers" menu-close="">
               <span class="icon fa fa-graduation-cap" aria-hidden="true"></span>
-              <strong> Corpo Docente </strong>
+              Corpo Docente
             </ion-item>
 
-            <ion-item class="item-icon-left" ui-sref= "labs" menu-close="">
+            <ion-item class="item-icon-left" ui-sref="links" menu-close="">
+              <span class="icon fa fa-link" aria-hidden="true"></span>
+              Links Importantes
+            </ion-item>
+
+            <!-- <ion-item class="item-icon-left" ui-sref= "labs" menu-close="">
               <span class="icon fa fa-desktop" aria-hidden="true"></span>
-              <strong> Laboratórios </strong>
-            </ion-item>
+              Laboratórios
+            </ion-item> -->
 
-            <div class="item item-divider">
+            <!-- <div class="item item-divider">
               Alunos
             </div>
 
             <ion-item class="item-icon-left" ui-sref= "highlights" menu-close="">
               <span class="icon fa fa-bolt" aria-hidden="true"></span>
-              <strong> Destaques </strong>
+              Destaques
             </ion-item>
 
             <ion-item class="item-icon-left" ui-sref= "yearbook" menu-close="">
               <span class="icon fa fa-picture-o" aria-hidden="true"></span>
-              <strong> YearBook </strong>
-            </ion-item>
+              YearBook
+            </ion-item> -->
 
             <div class="item item-divider">
               Contatos
@@ -99,12 +108,12 @@
 
             <ion-item class="item-icon-left" ui-sref= "phones" menu-close="">
               <span class="icon fa fa-phone" aria-hidden="true"></span>
-              <strong> Telemática </strong>
+              Telemática
             </ion-item>
 
             <ion-item class="item-icon-left" ui-sref="mails" menu-close="">
-              <span class="icon fa fa-envelope-o" aria-hidden="true"></span>
-              <strong> Professores </strong>
+              <span class="icon fa fa-at" aria-hidden="true"></span>
+              Professores
             </ion-item>
 
             <div class="item item-divider">
@@ -112,14 +121,15 @@
             </div>
 
             <ion-item class="item-icon-left" ui-sref="about-ifce" menu-close="">
-              <span class="icon fa fa-building-o" aria-hidden="true"></span>
-              <strong> Sobre o IFCE </strong>
+              <span class="icon fa fa-bank" aria-hidden="true"></span>
+              Sobre o IFCE
             </ion-item>
 
             <ion-item class="item-icon-left" ui-sref="about-developers" menu-close="">
               <span class="icon fa fa-terminal" aria-hidden="true"></span>
-              <strong> Desenvolvedores </strong>
+              Desenvolvedores
             </ion-item>
+
           </ion-list>
         </ion-content>
       </ion-side-menu>

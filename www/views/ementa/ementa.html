@@ -1,6 +1,10 @@
 <ion-view title="Ementas">
 	<ion-content>
     <div class="card">
+			<div class="item item-divider">
+				<i class="fa fa-paragraph"></i>
+				Apresentação
+			</div>
       <div class="item item-text-wrap">
         <p align="justify">
 					O curso de Engenharia de Computação é organizado em torno de dez semestres,
@@ -21,6 +25,7 @@
 		<ion-list>
 		  <div class="list card" ng-repeat="brief in briefs">
 				<div class="item item-divider">
+					<i class="fa fa-graduation-cap"></i>
 					{{brief.title}}
 				</div>
 
@@ -30,8 +35,8 @@
 					</p>
 
 					<p>
-						<button class="button button-clear button-balanced subdued" ng-click="onSeeMoreClick(brief.link)">
-							<span class="fa fa-download"></span>
+						<button class="button button-clear button-positive subdued" ng-click="onSeeMoreClick(brief.link)">
+							<i class="fa fa-download"></i>
 							Baixar Ementa...
 						</button>
 					</p>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <widget id="com.ionicframework.engcomp645866" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>engcomp</name>
+  <name>EngComp IFCE</name>
   <description>
         An Ionic Framework and Cordova project.
     </description>
-  <author email="you@example.com" href="http://example.com.com/">
-      Your Name Here
+  <author email="francisceioseph@gmail.com" href="http://example.com.com/">
+      Francisco A. C. Souza
     </author>
   <content src="index.html"/>
   <access origin="*"/>
@@ -13,6 +13,7 @@
   <allow-intent href="https://*/*"/>
   <allow-intent href="tel:*"/>
   <allow-intent href="mailto:*"/>
+  <allow-navigation href="https://www.youtube.com/embed/LyZ_8VqtuFQ" />
   <preference name="webviewbounce" value="false"/>
   <preference name="UIWebViewBounce" value="false"/>
   <preference name="DisallowOverscroll" value="true"/>
