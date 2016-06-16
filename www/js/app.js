@@ -18,11 +18,13 @@ angular.module('App', ['ionic'])
   })
   .state('ementa', {
     url: '/ementa',
-    templateUrl: 'views/ementa/ementa.html'
+    templateUrl: 'views/ementa/ementa.html',
+    controller: 'EmentaController'
   })
   .state('teachers', {
     url: '/teachers',
-    templateUrl: 'views/teachers/teachers.html'
+    templateUrl: 'views/teachers/teachers.html',
+    controller: 'TeachersController'
   })
   .state('labs', {
     url: '/labs',
@@ -34,7 +36,7 @@ angular.module('App', ['ionic'])
   })
   .state('yearbook', {
     url: '/yearbook',
-    templateUrl: 'views/highlights/highlights.html'
+    templateUrl: 'views/yearbook/yearbook.html'
   })
   .state('phones', {
     url: '/phones',
@@ -54,6 +56,7 @@ angular.module('App', ['ionic'])
   });
 
   $urlRouterProvider.otherwise('/news');
+
 })
 
 .run(function($ionicPlatform) {
