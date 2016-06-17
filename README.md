@@ -13,9 +13,13 @@ Este Aplicativo tem por intuito divulgar informações sobre o curso de Engenhar
 
 Após clonar o repositório, você deve instalar as dependencias do cocoa pods
 > npm install
+
 > ionic platform add [android/ios]
+
 > ionic prepare [android/ios]
+
 > ionic build [android/ios]
+
 > ionic emulate [android/ios]
 
 
