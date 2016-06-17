@@ -12010,6 +12010,11 @@ a.button {
   font-size: 24px;
   font-weight: 100; }
 
+.button-medium {
+  font-size: 15px;
+  font-weight: 500;
+  padding-left: 0px; }
+
 .video-container {
   position: relative;
   padding-bottom: 56.25%;

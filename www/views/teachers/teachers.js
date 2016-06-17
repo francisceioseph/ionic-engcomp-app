@@ -6,12 +6,4 @@ angular.module('App')
     window.open(url, '_system', 'location=yes');
     return false;
   };
-
-  $scope.onShowBioClick = function(teacher){
-    teacher.hidden = false;
-  }
-
-  $scope.onHideBioClick = function(teacher){
-    teacher.hidden = true;
-  }
 })

@@ -1,19 +1,21 @@
 <ion-view title="Corpo Docente">
 	<ion-content>
-    <ion-list>
-      <div class="list card" ng-repeat="teacher in teachers">
-        <div class="item item-avatar">
-          <img ng-src="{{teacher.photoUrl}}" alt="Teacher Photo" />
-          <h2>{{teacher.name}}</h2>
-          <p>{{teacher.titulacao}}</p>
-					<br>
+		<ion-list>
+			<div class="list card" ng-repeat="teacher in teachers">
+				<div class="item item-avatar">
+					<img ng-src="{{teacher.photoUrl}}" alt="Teacher Photo" />
+					<h2>{{teacher.name}}</h2>
+					<p>{{teacher.titulacao}}</p>
 
-					<button class="button button-small button-clear button-positive pull-right" ng-click="onSeeMoreClick(teacher.cvUrl)">
-						<i class="fa fa-files-o"></i>
-						<strong> Ver Curriculum Lattes <strong>
-					</button>
-        </div>
-      </div>
-    </ion-list>
+					<p>
+						<button class="button button-medium button-clear button-positive" ng-click="onSeeMoreClick(teacher.cvUrl)">
+								<i class="fa fa-files-o"></i>
+								Ver Curriculum Lattes
+						</button>
+					</p>
+					
+				</div>
+			</div>
+		</ion-list>
   </ion-content>
 </ion-view>
