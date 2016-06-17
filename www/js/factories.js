@@ -101,37 +101,37 @@ angular.module('App')
 .factory('TeacherEmails', function(){
   var TeacherEmails = {
     emails: [
-      {name:"Aluisio Cabral De Lima",email:"aluisio@ifce.edu.br"},
-      {name:"Anaxagoras Maia Girao",email:"anaxa@ifce.edu.br"},
-      {name:"Andre Luiz Carneiro De Araujo",email:"andreluiz@ifce.edu.br"},
-      {name:"Carlos Hairon Ribeiro Goncalves",email:"hairon@ifce.edu.br"},
-      {name:"Cassandra Ribeiro Joye",email:"cassandra@ifce.edu.br"},
-      {name:"Cesar Olavo De Moura Filho",email:"cesarolavo@ifce.edu.br"},
-      {name:"Cicero Roberto Bitencourt Calou",email:"calou@ifce.edu.br"},
-      {name:"Cidcley Teixeira De Souza",email:"cidcley@ifce.edu.br"},
-      {name:"Elias Teodoro Da Silva Junior",email:"elias@ifce.edu.br"},
-      {name:"Fabiola Fernandes Andrade",email:"fabiola@ifce.edu.br"},
-      {name:"Fernando Macedo Carneiro",email:"fmacedo@ifce.edu.br"},
-      {name:"Fernando Parente Garcia",email:"fernandoparente@ifce.edu.br"},
-      {name:"Francisco Jose Alves De Aquino",email:"fcoalves_aq@ifce.edu.br"},
-      {name:"Glauber Ferreira Cintra",email:"glauberc@ifce.edu.br"},
-      {name:"Itamar De Souza Lima",email:"itamar@ifce.edu.br"},
-      {name:"Joao Batista Bezerra Frota",email:"jb@ifce.edu.br"},
-      {name:"Jose Bento De Freitas",email:"jbento@ifce.edu.br"},
-      {name:"José De Souza Breves Filho",email:"breves@ifce.edu.br"},
-      {name:"Jose Stalio Rodrigues Dos Santos",email:"stalio@ifce.edu.br"},
-      {name:"José Wally Mendonça Menezes",email:"wally@ifce.edu.br"},
-      {name:"Lucineide Penha Torres De Freitas",email:"lutorres@ifce.edu.br"},
-      {name:"Maria Eugenia Canto Cabral",email:"canto@ifce.edu.br"},
-      {name:"Nídia Glória Da Silva Campos",email:"nidia@ifce.edu.br"},
-      {name:"Nivaldo Teixeira Filho",email:"nivaldo@ifce.edu.br"},
-      {name:"Paulo Maia Ferreira",email:"paulomaia@ifce.edu.br"},
-      {name:"Paulo Roberto Furtado Serra",email:"paulofurtado@ifce.edu.br"},
-      {name:"Ricardo Guedes",email:"ricardo@ifce.edu.br"},
-      {name:"Ricardo Duarte Taveira",email:"taveira@ifce.edu.br"},
-      {name:"Roberto Carlos Carneiro Feitosa",email:"robertodg68@ifce.edu.br"},
-      {name:"Roberto Ferreira Sena Filho",email:"robertovideo@gmail.com"},
-      {name:"Ronaldo Fernandes Ramos",email:"ronaldo@ifce.edu.br"}
+      {name:"Aluisio Cabral De Lima",email:"aluisio@ifce.edu.br", photoUrl: 'img/user.png'},
+      {name:"Anaxagoras Maia Girao",email:"anaxa@ifce.edu.br", photoUrl: 'img/xaxa.png'},
+      {name:"Andre Luiz Carneiro De Araujo",email:"andreluiz@ifce.edu.br", photoUrl: 'img/andre-luis.png'},
+      {name:"Carlos Hairon Ribeiro Goncalves",email:"hairon@ifce.edu.br", photoUrl: 'img/hairon.png'},
+      {name:"Cassandra Ribeiro Joye",email:"cassandra@ifce.edu.br", photoUrl: 'img/famale-user.png'},
+      {name:"Cesar Olavo De Moura Filho",email:"cesarolavo@ifce.edu.br", photoUrl: 'img/cesar-olavo.png'},
+      {name:"Cicero Roberto Bitencourt Calou",email:"calou@ifce.edu.br", photoUrl: 'img/user.png'},
+      {name:"Cidcley Teixeira De Souza",email:"cidcley@ifce.edu.br", photoUrl: 'img/cidcley.png'},
+      {name:"Elias Teodoro Da Silva Junior",email:"elias@ifce.edu.br", photoUrl: 'img/elias.png'},
+      {name:"Fabiola Fernandes Andrade",email:"fabiola@ifce.edu.br", photoUrl: 'img/famale-user.png'},
+      {name:"Fernando Macedo Carneiro",email:"fmacedo@ifce.edu.br", photoUrl: 'img/user.png'},
+      {name:"Fernando Parente Garcia",email:"fernandoparente@ifce.edu.br" , photoUrl: 'img/parente.png'},
+      {name:"Francisco Jose Alves De Aquino",email:"fcoalves_aq@ifce.edu.br" , photoUrl: 'img/fcojose.png'},
+      {name:"Glauber Ferreira Cintra",email:"glauberc@ifce.edu.br", photoUrl: 'img/glauber.png'},
+      {name:"Itamar De Souza Lima",email:"itamar@ifce.edu.br", photoUrl: 'img/user.png'},
+      {name:"Joao Batista Bezerra Frota",email:"jb@ifce.edu.br", photoUrl: 'img/jb.png'},
+      {name:"Jose Bento De Freitas",email:"jbento@ifce.edu.br", photoUrl: 'img/user.png'},
+      {name:"José De Souza Breves Filho",email:"breves@ifce.edu.br", photoUrl: 'img/user.png'},
+      {name:"Jose Stalio Rodrigues Dos Santos",email:"stalio@ifce.edu.br", photoUrl: 'img/user.png'},
+      {name:"José Wally Mendonça Menezes",email:"wally@ifce.edu.br", photoUrl: 'img/user.png'},
+      {name:"Lucineide Penha Torres De Freitas",email:"lutorres@ifce.edu.br", photoUrl: 'img/famale-user.png'},
+      {name:"Maria Eugenia Canto Cabral",email:"canto@ifce.edu.br", photoUrl: 'img/famale-user.png'},
+      {name:"Nídia Glória Da Silva Campos",email:"nidia@ifce.edu.br", photoUrl: 'img/famale-user.png'},
+      {name:"Nivaldo Teixeira Filho",email:"nivaldo@ifce.edu.br", photoUrl: 'img/user.png'},
+      {name:"Paulo Maia Ferreira",email:"paulomaia@ifce.edu.br", photoUrl: 'img/user.png'},
+      {name:"Paulo Roberto Furtado Serra",email:"paulofurtado@ifce.edu.br", photoUrl: 'img/user.png'},
+      {name:"Ricardo Guedes",email:"ricardo@ifce.edu.br", photoUrl: 'img/guedes.png'},
+      {name:"Ricardo Duarte Taveira",email:"taveira@ifce.edu.br", photoUrl: 'img/taveira.png' },
+      {name:"Roberto Carlos Carneiro Feitosa",email:"robertodg68@ifce.edu.br", photoUrl: 'img/user.png'},
+      {name:"Roberto Ferreira Sena Filho",email:"robertovideo@gmail.com",photoUrl: 'img/user.png'},
+      {name:"Ronaldo Fernandes Ramos",email:"ronaldo@ifce.edu.br", photoUrl: 'img/ronaldo.png'}
     ]
   };
 
@@ -144,38 +144,38 @@ angular.module('App')
       {
         name: 'Anaxágoras Maia Girão',
         titulacao: 'Especialização em Engenharia Elétrica',
-        photoUrl: 'http://goo.gl/1C5j5G',
+        photoUrl: 'img/xaxa.png',
         cvUrl: ' http://lattes.cnpq.br/1133345547075628',
       },
       {
         name: 'André Luiz Carneiro de Araújo',
         titulacao: 'Doutorado em Engenharia de Teleinformática',
-        photoUrl: 'http://goo.gl/FIMzQh',
+        photoUrl: 'img/andre-luis.png',
         cvUrl: 'http://lattes.cnpq.br/4393261030137127',
       },
       {
         name: 'Antonio Wendell de Oliveira Rodrigues',
         titulacao: "Doutorado em Ecole Doctorale Sciences Pour l'Ingénieur.",
         cvUrl: 'http://lattes.cnpq.br/5147756865751360',
-        photoUrl: 'http://goo.gl/orTfI2',
+        photoUrl: 'img/wendell.png',
       },
       {
         name: 'Carlos Hairon Ribeiro Gonçalves',
         titulacao: 'Mestrado em Ciências da Computação',
         cvUrl: 'http://lattes.cnpq.br/0949861086857458',
-        photoUrl: 'http://goo.gl/H8sZi7'
+        photoUrl: 'img/hairon.png'
       },
       {
         name: 'Carlos Maurício Jaborandy de Mattos Dourado Júnior',
         titulacao: 'Doutorado em andamento em Informática Aplicada',
         cvUrl: 'http://lattes.cnpq.br/7559969132845272',
-        photoUrl: 'http://goo.gl/PJnwhz'
+        photoUrl: 'img/mauricio.png'
       },
       {
         name: 'César Olavo de Moura Filho',
         titulacao: 'Doutorado em Informática.',
         cvUrl: 'http://lattes.cnpq.br/6966901006537721',
-        photoUrl: 'http://goo.gl/i1lic2'
+        photoUrl: 'img/cesar-olavo.png'
       },
       {
         name: 'Cicero Roberto Bitencourt Calou',
@@ -187,97 +187,97 @@ angular.module('App')
         name: 'Cidcley Teixeira de Souza',
         titulacao: 'Doutorado em Ciências da Computação',
         cvUrl: 'http://lattes.cnpq.br/8431323844701530',
-        photoUrl: ''
+        photoUrl: 'img/cidcley.png'
       },
       {
         name: 'Elias Teodoro da Silva Júnior',
         titulacao: 'Doutorado em Computação',
         cvUrl: 'http://lattes.cnpq.br/9405844293925084',
-        photoUrl: 'http://goo.gl/VhR77Z'
+        photoUrl: 'img/elias.png'
       },
       {
         name: 'Ernani Andrade Leite',
         cvUrl: 'http://lattes.cnpq.br/6944727619038152',
         titulacao: 'Doutorado em andamento em Informática Aplicada',
-        photoUrl: 'http://goo.gl/Ms6PZJ'
+        photoUrl: 'img/ernani.png'
       },
       {
         name: 'Esdras Ferreira Sales Júnior',
         titulacao: 'Mestrado em Informática',
         cvUrl: 'http://lattes.cnpq.br/8768626374347089',
-        photoUrl: 'http://goo.gl/7zuD0I'
+        photoUrl: 'img/esdras.png'
       },
       {
         name: 'Fernando Parente Garcia',
         titulacao: 'Doutorado em Ciências da Computação',
         cvUrl: 'http://lattes.cnpq.br/2634131135774711',
-        photoUrl: 'http://goo.gl/05QV1Y'
+        photoUrl: 'img/parente.png'
       },
       {
         name: 'Francisco Edmar Vasconcelos Pereira',
         cvUrl: 'http://lattes.cnpq.br/6493538996410599',
         titulacao: 'Mestrado em Educação',
-        photoUrl: 'http://goo.gl/dW1GaC'
+        photoUrl: 'img/edmar.png'
       },
       {
         name: 'Francisco José Alves de Aquino',
         cvUrl: 'http://lattes.cnpq.br/7753822376652584',
         titulacao: 'Doutorado em Engenharia Elétrica',
-        photoUrl: 'http://goo.gl/hXpjP7'
+        photoUrl: 'img/fcojose.png'
       },
       {
         name: 'Glauber Ferreira Cintra',
         cvUrl: 'http://lattes.cnpq.br/1499896249253454',
         titulacao: 'Doutorado em Ciência da Computação',
-        photoUrl: 'http://goo.gl/lqGq9w'
+        photoUrl: 'img/glauber.png'
       },
       {
         name: 'Itamar de Souza Lima',
         cvUrl: 'http://lattes.cnpq.br/5379713635869189',
         titulacao: 'Mestrado em Engenharia Elétrica',
-        photoUrl: ''
+        photoUrl: 'img/user.png'
       },
       {
         name: 'Joacillo Luz Dantas',
         cvUrl: 'http://lattes.cnpq.br/8848115960707246',
         titulacao: 'Doutorado em andamento em Engenharia Elétrica',
-        photoUrl: 'http://goo.gl/634Ouv'
+        photoUrl: 'img/joacilo.png'
       },
       {
         name: 'Joao Batista Bezerra Frota',
         cvUrl: 'http://lattes.cnpq.br/5806439919276380',
         titulacao: 'Mestrado profissional em Mestrado Profissional em Computação Aplicada',
-        photoUrl: 'http://goo.gl/sC1caJ'
+        photoUrl: 'img/jb.png'
       },
       {
         name: 'José Bento de Freitas',
         cvUrl: 'http://lattes.cnpq.br/2294730519255707',
         titulacao: 'Mestrado profissional em Computação.',
-        photoUrl: ''
+        photoUrl: 'img/user.png'
       },
       {
         name: 'Nídia Glória da Silva Campos',
         cvUrl: 'http://lattes.cnpq.br/7654075576944519',
         titulacao: 'Doutorado em andamento em Engenharia de Teleinformática',
-        photoUrl: ''
+        photoUrl: 'img/famale-user.png'
       },
       {
         name: 'Ricardo Bezerra de Menezes Guedes',
         cvUrl: 'http://lattes.cnpq.br/4186661410301575',
         titulacao: 'Mestrado em Ciências da Computação',
-        photoUrl: 'http://goo.gl/5tBhRg'
+        photoUrl: 'img/guedes.png'
       },
       {
         name: 'Ricardo Duarte Taveira',
         cvUrl: 'http://lattes.cnpq.br/6322998211288243',
         titulacao: 'Doutorado em andamento em Informática Aplicada',
-        photoUrl: 'http://goo.gl/vqzlL8'
+        photoUrl: 'img/taveira.png'
       },
       {
         name: 'Ronaldo Fernandes Ramos',
         cvUrl: 'http://lattes.cnpq.br/6350043279210590',
         titulacao: 'Doutorado em Systèmes Informatiques',
-        photoUrl: 'http://goo.gl/nTMB7S'
+        photoUrl: 'img/ronaldo.png'
       }
     ]
   };
