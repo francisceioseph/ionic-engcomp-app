@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="br.edu.ifce.engcomp-ifce" version="0.1.4" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.ionicframework.engcomp645866" version="0.1.5" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>EngComp IFCE</name>
     <description>
       O curso de Engenharia de Computação do IFCE, campus Fortaleza foi criado em 2006 e
@@ -17,7 +17,7 @@
       Este Aplicativo tem por intuito divulgar informações sobre o curso de Engenharia de Computação do IFCE
       campus Fortaleza, facilitando a vida de alunos, ex-alunos e de quem gostaria de
       conhecer um pouco mais esse curso.
-      
+
       O projeto pode ser achado em: https://github.com/francisceioseph/ionic-engcomp-app
 
     </description>

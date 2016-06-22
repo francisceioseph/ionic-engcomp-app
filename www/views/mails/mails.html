@@ -1,7 +1,7 @@
 <ion-view title="Emails Professores">
 	<ion-content>
     <div class="list card">
-      <a class="item item-avatar" ng-repeat="email in emails" ng-href="mailto: {{email.email}}">
+      <a class="item item-avatar" ng-repeat="email in emails" ng-href="mailto:{{email.email}}">
 					<img ng-src="{{email.photoUrl}}" alt="Teacher photo" />
           <h2>{{email.name}}<h2>
 					<p>{{email.email}}</p>
