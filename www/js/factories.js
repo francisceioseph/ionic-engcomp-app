@@ -98,6 +98,80 @@ angular.module('App')
   return BriefEmentas;
 })
 
+.factory('BriefEmentasNovas', function() {
+  var BriefEmentasNovas = {
+    briefs: [
+      {
+        title: 'Primeiro Semestre',
+        text: "No primeiro semestre são ofertadas as disciplinas de Introdução a \
+        Engenharia de Computação, como Lógica Matemática, Cálculo I, Introdução à \
+        Programação e Eletrônica Digital.",
+        link:'https://goo.gl/gnavSL'
+      },
+      {
+        title: 'Segundo Semestre',
+        text: "No segundo semestre são ofertadas as seguintes disciplinas: \
+        Física-Eletricidade, Cálculo II, Matemática Discreta, Programação \
+        Orientada a Objetos, Eletrônica Analógica.",
+        link: 'https://goo.gl/9khPmo'
+      },
+      {
+        title: 'Terceiro Semestre',
+        text: "No terceiro semestre são ofertadas as seguintes disciplinas: Física-Eletromagnetismo, \
+        Arquitetura de Computadores, Circuitos Eletrônicos, Estruturas de Dados, Introdução a \
+        Análise de Algoritmos",
+        link: 'https://goo.gl/KSju7G'
+      },
+      {
+        title: 'Quarto Semestre',
+        text: "No quarto semestre são ofertadas as seguintes disciplinas: Aspectos Teóricos da Computação \
+        Geometria Analítica e Álgebra Linear, Microcontroladores e Microprocessadores e Pesquisa e Ordenação",
+        link: 'https://goo.gl/EEKQ5A'
+      },
+      {
+        title: 'Quinto Semestre',
+        text: "No quinto semestre são ofertadas as seguintes disciplinas: Banco de Dados, Cálculo Numérico \
+        Metodologia Científica e Tecnológica, Sistemas Lineares e Sistemas Operacionais",
+        link: "https://goo.gl/z3u9i0"
+      },
+      {
+        title: 'Sexto Semestre',
+        text: "No sexto semestre são ofertadas as seguintes disciplinas: Engenharia de Software \
+        Probabilidade e Estatística, Redes de Computadores e Sistemas Embarcados",
+        link: "https://goo.gl/mPV5iN"
+      },
+      {
+        title: 'Sétimo Semestre',
+        text: "No sétimo semestre são ofertadas as seguintes disciplinas: Computação Gráfica \
+        Grafos, Interação Humano-Computador, Introdução a Automação Industrial e Controle\
+        Produção Textual",
+        link: "https://goo.gl/IC544U"
+      },
+      {
+        title: 'Oitavo Semestre',
+        text: "No oitavo semestre são ofertadas as seguintes disciplinas: Aplicações de Controle \
+        Inteligência Computacional, Projeto de Sistemas de Informação, Sistemas de Tempo Real e \
+        Sistemas Distribuídos",
+        link: "https://goo.gl/wKZWjx"
+      },
+      {
+        title: 'Nono Semestre',
+        text: "No nono semestre são ofertadas as seguintes disciplinas: Empreendedorismo e Gestão \
+        Programação Paralela e Distribuída e trabalho de Graduação Interdisciplinar",
+        link: "https://goo.gl/Az5tHI"
+      },
+      {
+        title: 'Décimo Semestre',
+        text: "No décimo semestre são ofertadas as seguintes disciplinas: Ética e Filosofia \
+        Projeto Social",
+        link: 'https://goo.gl/kAXW98'
+      }
+    ]
+  };
+
+  return BriefEmentasNovas;
+})
+
 .factory('TeacherEmails', function(){
   var TeacherEmails = {
     emails: [

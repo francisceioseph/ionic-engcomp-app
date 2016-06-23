@@ -16,10 +16,28 @@ angular.module('App', ['ionic'])
     url: '/get-started',
     templateUrl: 'views/get_started/get_started.html'
   })
-  .state('ementa', {
-    url: '/ementa',
-    templateUrl: 'views/ementa/ementa.html',
-    controller: 'EmentaController'
+  .state('ementas', {
+    url: '/ementas',
+    abstract: true,
+    templateUrl: 'views/ementa/ementas.html',
+  })
+  .state('ementas.antiga', {
+    url: '/grade-antiga',
+    views: {
+      'grade-antiga-tab': {
+        templateUrl: 'views/ementa/grade_antiga.html',
+        controller: 'GradeAntigaController'
+      }
+    }
+  })
+  .state('ementas.nova', {
+    url: '/grade-nova',
+    views: {
+      'grade-nova-tab': {
+        templateUrl: 'views/ementa/grade_nova.html',
+        controller: 'GradeNovaController'
+      }
+    }
   })
   .state('teachers', {
     url: '/teachers',

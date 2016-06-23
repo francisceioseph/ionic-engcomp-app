@@ -1,5 +1,5 @@
 angular.module('App')
-.controller('EmentaController', function($scope, BriefEmentas){
+.controller('GradeAntigaController', function($scope, BriefEmentas){
   $scope.briefs = BriefEmentas.briefs;
 
   $scope.onSeeMoreClick = function(url){
