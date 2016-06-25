@@ -13,9 +13,6 @@ angular.module('App')
     return configs;
   });
 
-  function ementaCardController($scope) {
-    $scope.onSeeMoreClick = function(url){
-      window.open(url, '_system', 'location=yes');
-      return false;
-    };
-  };
+function ementaCardController($scope, utils) {
+  $scope.onSeeMoreClick = utils.openUrlInBrowser;
+};

@@ -216,6 +216,14 @@ angular.module('App')
   var Teachers = {
     data: [
       {
+        name:"Aluisio Cabral De Lima",
+        email:"aluisio@ifce.edu.br",
+        photoUrl: 'img/user.png',
+        titulacao: 'Mestrado em Matemática',
+        cvUrl: 'http://lattes.cnpq.br/1635048006919268'
+      },
+
+      {
         name: 'Anaxágoras Maia Girão',
         titulacao: 'Especialização em Engenharia Elétrica',
         photoUrl: 'img/xaxa.png',
@@ -237,13 +245,19 @@ angular.module('App')
         name: 'Carlos Hairon Ribeiro Gonçalves',
         titulacao: 'Mestrado em Ciências da Computação',
         cvUrl: 'http://lattes.cnpq.br/0949861086857458',
-        photoUrl: 'img/hairon.png'
+        photoUrl: 'img/hairon.png',
       },
       {
         name: 'Carlos Maurício Jaborandy de Mattos Dourado Júnior',
         titulacao: 'Doutorado em andamento em Informática Aplicada',
         cvUrl: 'http://lattes.cnpq.br/7559969132845272',
         photoUrl: 'img/mauricio.png'
+      },
+      {
+        name:"Cassandra Ribeiro Joye",
+        titulacao: 'Doutorado em Engenharia de Produção',
+        cvUrl: 'http://lattes.cnpq.br/2308920362072312',
+        photoUrl: 'img/famale-user.png'
       },
       {
         name: 'César Olavo de Moura Filho',
@@ -281,6 +295,17 @@ angular.module('App')
         cvUrl: 'http://lattes.cnpq.br/8768626374347089',
         photoUrl: 'img/esdras.png'
       },
+      {
+        name:"Fabiola Fernandes Andrade",
+        titulacao:'Doutorado em andamento em Educacao.',
+        cvUrl: 'http://lattes.cnpq.br/3659148089553572',
+        photoUrl: 'img/famale-user.png'
+      },
+      {
+        name:"Fernando Macedo Carneiro",
+        titulacao: 'Doutorado em Geografia (Organizacao do Espaco)',
+        cvUrl: 'http://lattes.cnpq.br/5273082499260089',
+        photoUrl: 'img/user.png'},
       {
         name: 'Fernando Parente Garcia',
         titulacao: 'Doutorado em Ciências da Computação',
@@ -329,6 +354,42 @@ angular.module('App')
         titulacao: 'Mestrado profissional em Computação.',
         photoUrl: 'img/user.png'
       },
+      {
+        name:"José De Souza Breves Filho",
+        titulacao:'',
+        cvUrl: '',
+        photoUrl: 'img/user.png'
+      },
+      {
+        name:"Jose Stalio Rodrigues Dos Santos",
+        titulacao:'Mestrado em Matemática ',
+        cvUrl: 'http://lattes.cnpq.br/1157467885786391',
+        photoUrl: 'img/user.png'
+      },
+      {
+        name:"José Wally Mendonça Menezes",
+        titulacao:'Doutorado em Física ',
+        cvUrl: 'http://lattes.cnpq.br/1278089649826222',
+        photoUrl: 'img/user.png'
+      },
+      {
+        name:"Lucineide Penha Torres De Freitas",
+        titulacao: 'Mestrado em Economia Doméstica',
+        cvUrl:' http://lattes.cnpq.br/6385493923138064',
+        photoUrl: 'img/famale-user.png'
+      },
+      {
+        name:"Maria Eugenia Canto Cabral",
+        titulacao:'Doutorado na Universität Konstanz, UniKon, Alemanha. ',
+        cvUrl:'http://lattes.cnpq.br/6082661955679855',
+        photoUrl: 'img/famale-user.png'
+      },
+      {
+        name:"Nivaldo Teixeira Filho",
+        titulacao:'Mestrado Profissional em MPCOMP',
+        cvUrl: 'http://lattes.cnpq.br/7599789162130760',
+        photoUrl: 'img/user.png'},
+
       {
         name: 'Nídia Glória da Silva Campos',
         cvUrl: 'http://lattes.cnpq.br/7654075576944519',
