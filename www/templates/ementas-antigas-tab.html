@@ -1,26 +1,7 @@
 <ion-view title="Ementas">
 	<ion-content>
     <ion-list>
-		  <div class="list card animated fadeInDown" ng-repeat="brief in briefs">
-				<div class="item item-divider">
-					<i class="fa fa-graduation-cap"></i>
-					{{brief.title}}
-				</div>
-
-				<div class="item item-text-wrap">
-					<p>
-						{{brief.text}}
-					</p>
-
-					<p>
-						<button class="button button-medium button-clear button-positive subdued" ng-click="onSeeMoreClick(brief.link)">
-              <i class="fa fa-eye"></i>
-							Visualizar Ementas
-						</button>
-					</p>
-				</div>
-		  </div>
-		  </ion-item>
+			<card-ementa class="animated fadeInDown" ng-repeat="brief in briefs" brief="brief"></card-ementa>
 		</ion-list>
   </ion-content>
 </ion-view>
